@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 58, "column": 0}, "map": {"version":3,"sources":["file:///Users/jiwon/Desktop/Programming/StudyNextJs/app/api/posts/route.ts"],"sourcesContent":["import {NextResponse} from 'next/server';\nimport samplePosts from '@/lib/constants/sample-posts.json';\n\nexport async function GET(){\n    return NextResponse.json(samplePosts, {\n        status: 200,\n    });\n}"],"names":[],"mappings":";;;;AAAA;AACA;;;AAEO,eAAe;IAClB,OAAO,gJAAY,CAAC,IAAI,CAAC,sHAAW,EAAE;QAClC,QAAQ;IACZ;AACJ","debugId":null}}]
+}
