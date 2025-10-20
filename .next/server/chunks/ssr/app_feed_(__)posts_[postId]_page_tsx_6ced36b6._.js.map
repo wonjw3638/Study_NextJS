@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/jiwon/Desktop/Programming/StudyNextJs/app/feed/%28..%29posts/%5BpostId%5D/page.tsx"],"sourcesContent":["interface PageProps{\n    params: Promise<{postId: string}>\n}\n\nasync function PostItemPage(props: PageProps){\n    const { params } = props;\n    const { postId } = await params;\n\n    return (\n        <div className=\"box page\">\n            <p>{`Intercepted PostItemPage ${postId}`}</p>\n        </div>\n    )\n}\n\nexport default PostItemPage;"],"names":[],"mappings":";;;;;;AAIA,eAAe,aAAa,KAAgB;IACxC,MAAM,EAAE,MAAM,EAAE,GAAG;IACnB,MAAM,EAAE,MAAM,EAAE,GAAG,MAAM;IAEzB,qBACI,8OAAC;QAAI,WAAU;kBACX,cAAA,8OAAC;sBAAG,CAAC,yBAAyB,EAAE,QAAQ;;;;;;;;;;;AAGpD;uCAEe","debugId":null}}]
+}

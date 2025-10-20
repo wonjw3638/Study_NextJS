@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/globals.css"],"sourcesContent":[".box {\n    padding: 8px;\n    border: 2px solid black; \n    border-radius: 8px;\n}\n\n.layout {\n    background-color: #0090FF;\n}\n\n.template {\n    background-color: #00A2C7;\n}\n\n.slot-default {\n    background-color: lightgray;\n}\n\n.slot-1 {\n    background-color: #FFE629;\n}\n\n.slot-2 {\n    background-color: #BDEE63;\n}\n\n.page {\n    background-color: #F76B15;\n}"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;AAIA;;;;AAIA;;;;AAIA;;;;AAIA;;;;AAIA"}}]
+}

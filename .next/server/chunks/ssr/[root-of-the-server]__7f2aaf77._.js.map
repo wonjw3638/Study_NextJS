@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/jiwon/Desktop/Programming/StudyNextJs/app/page.tsx"],"sourcesContent":["\n\nfunction IndexPage() {\n    return <div className='box page'> <h1>IndexPage</h1> </div>\n}\n\nexport default IndexPage;\n"],"names":[],"mappings":";;;;;;AAEA,SAAS;IACL,qBAAO,8OAAC;QAAI,WAAU;;YAAW;0BAAC,8OAAC;0BAAG;;;;;;YAAc;;;;;;;AACxD;uCAEe","debugId":null}}]
+}

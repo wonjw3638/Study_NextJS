@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/jiwon/Desktop/Programming/StudyNextJs/app/feed/page.tsx"],"sourcesContent":["// app/feed/page.tsx\nimport Link from 'next/link';\n\nfunction FeedPage() {\n    return (\n        <div className=\"box page\">\n            <h4>Page</h4>\n            <ul style={{ listStylePosition: 'inside' }}>\n                {[...new Array(10)].map((item, index) => {\n                const postId = index + 1;\n                    return (\n                        <li key={index}>\n                            < Link href={`/posts/${postId}`}>\n                                {`Post item ${postId}`}\n                            </Link>\n                        </li>\n                    )\n                })}\n            </ul>\n        </div>\n    )\n}\n\nexport default FeedPage;"],"names":[],"mappings":"AAAA,oBAAoB;;;;;;AACpB;;;AAEA,SAAS;IACL,qBACI,8OAAC;QAAI,WAAU;;0BACX,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;gBAAG,OAAO;oBAAE,mBAAmB;gBAAS;0BACpC;uBAAI,IAAI,MAAM;iBAAI,CAAC,GAAG,CAAC,CAAC,MAAM;oBAC/B,MAAM,SAAS,QAAQ;oBACnB,qBACI,8OAAC;kCACG,cAAA,8OAAE,uKAAI;4BAAC,MAAM,CAAC,OAAO,EAAE,QAAQ;sCAC1B,CAAC,UAAU,EAAE,QAAQ;;;;;;uBAFrB;;;;;gBAMjB;;;;;;;;;;;;AAIhB;uCAEe","debugId":null}}]
+}
