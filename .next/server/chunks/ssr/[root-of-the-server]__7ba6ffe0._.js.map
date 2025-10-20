@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/jiwon/Desktop/Programming/StudyNextJs/.next-internal/server/app/feed/page/actions.js%20%28server%20actions%20loader%29"],"sourcesContent":["export {readPostsAction as '002d510b3b03d1e611bd5b0db6453e9602f68f312a'} from 'ACTIONS_MODULE0'\n"],"names":[],"mappings":";AAAA","debugId":null}},
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":["file:///Users/jiwon/Desktop/Programming/StudyNextJs/app/%40users/default.tsx"],"sourcesContent":["function UserPage(){\n    return <div className=\"box slot-default\">User Slot default.js</div>\n}\n\nexport default UserPage;"],"names":[],"mappings":";;;;;;AAAA,SAAS;IACL,qBAAO,8OAAC;QAAI,WAAU;kBAAmB;;;;;;AAC7C;uCAEe","debugId":null}}]
+}
