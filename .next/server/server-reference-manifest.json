@@ -1,21 +1,5 @@
 {
-  "node": {
-    "00eae590f4e41b1b53c48b7fa9d1a898ea08ab0256": {
-      "workers": {
-        "app/feed/page": {
-          "moduleId": "[project]/.next-internal/server/app/feed/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/actions/posts.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
-          "async": false,
-          "exportedName": "readPostsAction",
-          "filename": "lib/actions/posts.ts"
-        }
-      },
-      "layer": {
-        "app/feed/page": "rsc"
-      },
-      "filename": "lib/actions/posts.ts",
-      "exportedName": "readPostsAction"
-    }
-  },
+  "node": {},
   "edge": {},
   "encryptionKey": "jHoQyF9MrGb/nJc0JTCRDUUdRnsltZXMiMw1m5cQ/X8="
 }

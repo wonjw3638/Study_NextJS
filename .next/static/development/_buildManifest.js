@@ -12,6 +12,138 @@ self.__BUILD_MANIFEST = {
         ],
         "source": "/posts/:postId",
         "destination": "/feed/(..)posts/:postId"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "\\/feed(?:\\/(.*))?[\\/#\\?]?"
+          }
+        ],
+        "source": "/posts/:postId",
+        "destination": "/feed/(..)posts/:postId"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "\\/feed(?:\\/(.*))?[\\/#\\?]?"
+          }
+        ],
+        "source": "/posts/:postId",
+        "destination": "/feed/(..)posts/:postId"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "\\/feed(?:\\/(.*))?[\\/#\\?]?"
+          }
+        ],
+        "source": "/posts/:postId",
+        "destination": "/feed/(..)posts/:postId"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "\\/feed(?:\\/(.*))?[\\/#\\?]?"
+          }
+        ],
+        "source": "/posts/:postId",
+        "destination": "/feed/(..)posts/:postId"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "\\/feed(?:\\/(.*))?[\\/#\\?]?"
+          }
+        ],
+        "source": "/posts/:postId",
+        "destination": "/feed/(..)posts/:postId"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "\\/feed(?:\\/(.*))?[\\/#\\?]?"
+          }
+        ],
+        "source": "/posts/:postId",
+        "destination": "/feed/(..)posts/:postId"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "\\/feed(?:\\/(.*))?[\\/#\\?]?"
+          }
+        ],
+        "source": "/posts/:postId",
+        "destination": "/feed/(..)posts/:postId"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "\\/feed(?:\\/(.*))?[\\/#\\?]?"
+          }
+        ],
+        "source": "/posts/:postId",
+        "destination": "/feed/(..)posts/:postId"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "\\/feed(?:\\/(.*))?[\\/#\\?]?"
+          }
+        ],
+        "source": "/posts/:postId",
+        "destination": "/feed/(..)posts/:postId"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "\\/feed(?:\\/(.*))?[\\/#\\?]?"
+          }
+        ],
+        "source": "/posts/:postId",
+        "destination": "/feed/(..)posts/:postId"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "\\/feed(?:\\/(.*))?[\\/#\\?]?"
+          }
+        ],
+        "source": "/posts/:postId",
+        "destination": "/feed/(..)posts/:postId"
+      },
+      {
+        "has": [
+          {
+            "type": "header",
+            "key": "next-url",
+            "value": "\\/feed(?:\\/(.*))?[\\/#\\?]?"
+          }
+        ],
+        "source": "/posts/:postId",
+        "destination": "/feed/(..)posts/:postId"
       }
     ],
     "fallback": []
