@@ -2,14 +2,11 @@ import {NextRequest, NextResponse} from 'next/server';
 import samplePosts from '@/lib/constants/sample-posts.json';
 
 interface RequestPayload {
-    params: { postId: string }
+    params: Promise<{ postId: string }>
 }
 
 export async function GET(request:NextRequest, payload: RequestPayload) {
-    console.log(payload);
-    const {postId} = payload.params;
-    console.log('============ postId : ', postId);
-
+    const {postId} = await payload.params;
 
     const post = samplePosts.find((post) => {
         return post.id === postId;
