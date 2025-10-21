@@ -10,7 +10,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$actions$2f$posts$2e$t
 "use strict";
 
 __turbopack_context__.s([
-    "002d510b3b03d1e611bd5b0db6453e9602f68f312a",
+    "00eae590f4e41b1b53c48b7fa9d1a898ea08ab0256",
     ()=>__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$actions$2f$posts$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["readPostsAction"]
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f2e$next$2d$internal$2f$server$2f$app$2f$feed$2f$page$2f$actions$2e$js__$7b$__ACTIONS_MODULE0__$3d3e$__$225b$project$5d2f$lib$2f$actions$2f$posts$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$server__actions__loader$2c$__ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i('[project]/.next-internal/server/app/feed/page/actions.js { ACTIONS_MODULE0 => "[project]/lib/actions/posts.ts [app-rsc] (ecmascript)" } [app-rsc] (server actions loader, ecmascript) <locals>');

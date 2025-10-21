@@ -41,7 +41,7 @@ __turbopack_context__.v(JSON.parse("[{\"id\":\"1\",\"title\":\"🌅 감성 가�
 "[project]/lib/actions/posts.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/* __next_internal_action_entry_do_not_use__ [{"002d510b3b03d1e611bd5b0db6453e9602f68f312a":"readPostsAction"},"",""] */ __turbopack_context__.s([
+/* __next_internal_action_entry_do_not_use__ [{"00eae590f4e41b1b53c48b7fa9d1a898ea08ab0256":"readPostsAction"},"",""] */ __turbopack_context__.s([
     "readPostsAction",
     ()=>readPostsAction
 ]);
@@ -61,7 +61,7 @@ async function readPostsAction() {
 (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$action$2d$validate$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["ensureServerEntryExports"])([
     readPostsAction
 ]);
-(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(readPostsAction, "002d510b3b03d1e611bd5b0db6453e9602f68f312a", null);
+(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$webpack$2f$loaders$2f$next$2d$flight$2d$loader$2f$server$2d$reference$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["registerServerReference"])(readPostsAction, "00eae590f4e41b1b53c48b7fa9d1a898ea08ab0256", null);
 }),
 "[project]/app/feed/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";

@@ -2,5 +2,5 @@
   "version": 3,
   "sources": [],
   "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/jiwon/Desktop/Programming/StudyNextJs/app/%40trends/default.tsx"],"sourcesContent":["function TrendsPage() {\n    return <div className=\"box slot-default\">Trends Slot default.js</div>\n}\n\nexport default TrendsPage;"],"names":[],"mappings":";;;;;;AAAA,SAAS;IACL,qBAAO,8OAAC;QAAI,WAAU;kBAAmB;;;;;;AAC7C;uCAEe","debugId":null}}]
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/1113462/Desktop/Tech/Study_NextJS/app/%40trends/default.tsx"],"sourcesContent":["function TrendsPage() {\n    return <div className=\"box slot-default\">Trends Slot default.js</div>\n}\n\nexport default TrendsPage;"],"names":[],"mappings":";;;;;;AAAA,SAAS;IACL,qBAAO,8OAAC;QAAI,WAAU;kBAAmB;;;;;;AAC7C;uCAEe","debugId":null}}]
 }

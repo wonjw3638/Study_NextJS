@@ -1,0 +1,3 @@
+module.exports=[93483,a=>{"use strict";a.s(["default",()=>d]);var b=a.i(87924),c=a.i(72131);let d=function(a){let{children:d}=a,[e,f]=(0,c.useState)("mounting...");return(0,c.useEffect)(()=>{setTimeout(()=>{f("mounted.")},1e3)},[]),(0,b.jsxs)("div",{className:"box layout",children:[(0,b.jsx)("h4",{children:`FeedLayout: ${e}`}),(0,b.jsx)("div",{style:{padding:8},children:d})]})}}];
+
+//# sourceMappingURL=app_feed_layout_tsx_eaf34539._.js.map

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///Users/jiwon/Desktop/Programming/StudyNextJs/app/settings/page.tsx"],"sourcesContent":["function SettingsPage() {\n    return <div className=\"box page\">SettingsPage</div>\n}\n\nexport default SettingsPage;"],"names":[],"mappings":";;;;;;AAAA,SAAS;IACL,qBAAO,8OAAC;QAAI,WAAU;kBAAW;;;;;;AACrC;uCAEe","debugId":null}}]
-}

@@ -3,5 +3,5 @@
   "sources": [],
   "sections": [
     {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":["file:///Users/jiwon/Desktop/Programming/StudyNextJs/app/%40users/default.tsx"],"sourcesContent":["function UserPage(){\n    return <div className=\"box slot-default\">User Slot default.js</div>\n}\n\nexport default UserPage;"],"names":[],"mappings":";;;;;;AAAA,SAAS;IACL,qBAAO,8OAAC;QAAI,WAAU;kBAAmB;;;;;;AAC7C;uCAEe","debugId":null}}]
+    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":["file:///Users/1113462/Desktop/Tech/Study_NextJS/app/%40users/default.tsx"],"sourcesContent":["function UserPage(){\n    return <div className=\"box slot-default\">User Slot default.js</div>\n}\n\nexport default UserPage;"],"names":[],"mappings":";;;;;;AAAA,SAAS;IACL,qBAAO,8OAAC;QAAI,WAAU;kBAAmB;;;;;;AAC7C;uCAEe","debugId":null}}]
 }

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 58, "column": 0}, "map": {"version":3,"sources":["file:///Users/jiwon/Desktop/Programming/StudyNextJs/app/api/posts/%5BpostId%5D/route.ts"],"sourcesContent":["import {NextRequest, NextResponse} from 'next/server';\nimport samplePosts from '@/lib/constants/sample-posts.json';\n\ninterface RequestPayload {\n    params: Promise<{ postId: string }>\n}\n\nexport async function GET(request:NextRequest, payload: RequestPayload) {\n    const {postId} = await payload.params;\n\n    const post = samplePosts.find((post) => {\n        return post.id === postId;\n    })\n\n    if (!post) {\n        return NextResponse.json({error: 'Not found'}, {status: 404});\n    }\n\n    return NextResponse.json(post, {status: 200});\n}"],"names":[],"mappings":";;;;AAAA;AACA;;;AAMO,eAAe,IAAI,OAAmB,EAAE,OAAuB;IAClE,MAAM,EAAC,MAAM,EAAC,GAAG,MAAM,QAAQ,MAAM;IAErC,MAAM,OAAO,sHAAW,CAAC,IAAI,CAAC,CAAC;QAC3B,OAAO,KAAK,EAAE,KAAK;IACvB;IAEA,IAAI,CAAC,MAAM;QACP,OAAO,gJAAY,CAAC,IAAI,CAAC;YAAC,OAAO;QAAW,GAAG;YAAC,QAAQ;QAAG;IAC/D;IAEA,OAAO,gJAAY,CAAC,IAAI,CAAC,MAAM;QAAC,QAAQ;IAAG;AAC/C","debugId":null}}]
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file:///Users/jiwon/Desktop/Programming/StudyNextJs/app/api/og/route.tsx"],"sourcesContent":["import { NextRequest, NextResponse } from 'next/server';\nimport { ImageResponse } from 'next/og';\n\nexport async function GET(request: NextRequest){\n    const title = request.nextUrl.searchParams.get('title');\n    if (!title){\n        return NextResponse.json({ error: 'title does not specified' }, { status: 400 });\n    }\n\n    return new ImageResponse(\n        (\n            <div\n            style={{\n                width:'100%',\n                height:'100%',\n                display:'flex',\n                alignItems:'center',\n                justifyContent:'center',\n                background: 'white',\n                fontSize: 96,\n            }}>\n                {title}\n            </div>\n        ),{\n            width:1200,\n            height:630,\n        }\n    )\n}"],"names":[],"mappings":";;;;;AAAA;AACA;;;;AAEO,eAAe,IAAI,OAAoB;IAC1C,MAAM,QAAQ,QAAQ,OAAO,CAAC,YAAY,CAAC,GAAG,CAAC;IAC/C,IAAI,CAAC,OAAM;QACP,OAAO,gJAAY,CAAC,IAAI,CAAC;YAAE,OAAO;QAA2B,GAAG;YAAE,QAAQ;QAAI;IAClF;IAEA,OAAO,IAAI,6IAAa,eAEhB,gPAAC;QACD,OAAO;YACH,OAAM;YACN,QAAO;YACP,SAAQ;YACR,YAAW;YACX,gBAAe;YACf,YAAY;YACZ,UAAU;QACd;kBACK;;;;;cAEP;QACE,OAAM;QACN,QAAO;IACX;AAER","debugId":null}}]
-}

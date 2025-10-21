@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/app/@users/default.tsx"],"sourcesContent":["function UserPage(){\n    return <div className=\"box slot-default\">User Slot default.js</div>\n}\n\nexport default UserPage;"],"names":[],"mappings":"6UAAA,SAAS,EACL,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,IAGG,EAHH,CAAI,UAAU,4BAAmB,wBAC7C"}
