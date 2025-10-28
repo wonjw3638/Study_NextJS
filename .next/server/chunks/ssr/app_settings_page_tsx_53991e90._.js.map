@@ -1,1 +1,0 @@
-{"version":3,"sources":["turbopack:///[project]/app/settings/page.tsx"],"sourcesContent":["function SettingsPage() {\n    return <div className=\"box page\">SettingsPage</div>\n}\n\nexport default SettingsPage;"],"names":[],"mappings":"oFAAA,SAAS,EACL,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,IAGG,EAHH,CAAI,UAAU,oBAAW,gBACrC"}

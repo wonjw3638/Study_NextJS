@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/1113462/Desktop/Tech/Study_NextJS/app/feed/template.tsx"],"sourcesContent":["'use client';\nimport {useEffect, useState} from 'react';\n\ninterface FeedTemplateProps{\n  children: React.ReactNode;\n}\n\nfunction FeedTemplate(props: FeedTemplateProps) {\n    const {children} = props;\n\n    const [status, setStatus] = useState('mounting...')\n\n    useEffect(() => {\n        setTimeout(() => {\n            setStatus('mounted.')\n        }, 1000)\n    }, [])\n\n    return (\n        <div className='box template'>\n            <h4>{`FeedTemplate: ${status}`}</h4>\n            <div style={{padding:8}}>{children}</div>\n        </div>\n    )\n}\n\nexport default FeedTemplate;"],"names":[],"mappings":";;;;;AACA;;;AADA;;AAOA,SAAS,aAAa,KAAwB;;IAC1C,MAAM,EAAC,QAAQ,EAAC,GAAG;IAEnB,MAAM,CAAC,QAAQ,UAAU,GAAG,IAAA,yKAAQ,EAAC;IAErC,IAAA,0KAAS;kCAAC;YACN;0CAAW;oBACP,UAAU;gBACd;yCAAG;QACP;iCAAG,EAAE;IAEL,qBACI,6LAAC;QAAI,WAAU;;0BACX,6LAAC;0BAAI,AAAC,iBAAuB,OAAP;;;;;;0BACtB,6LAAC;gBAAI,OAAO;oBAAC,SAAQ;gBAAC;0BAAI;;;;;;;;;;;;AAGtC;GAjBS;KAAA;uCAmBM","debugId":null}}]
-}

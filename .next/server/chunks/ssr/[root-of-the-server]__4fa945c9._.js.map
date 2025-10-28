@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 23, "column": 0}, "map": {"version":3,"sources":["file:///Users/1113462/Desktop/Tech/Study_NextJS/app/%40users/page.tsx"],"sourcesContent":["function UsersPage(){\n    return <div className=\"box slot-2\">Users Slot</div>\n}\n\nexport default UsersPage;"],"names":[],"mappings":";;;;;;AAAA,SAAS;IACL,qBAAO,8OAAC;QAAI,WAAU;kBAAa;;;;;;AACvC;uCAEe","debugId":null}}]
-}

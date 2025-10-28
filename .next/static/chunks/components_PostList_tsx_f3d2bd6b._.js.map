@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/1113462/Desktop/Tech/Study_NextJS/components/PostList.tsx"],"sourcesContent":["'use client'\n\nimport {use} from 'react';\nimport Link from 'next/link';\n\ninterface PostListProps {\n    postsPromise: Promise<myNextApp.Post[]>;\n}\n\nfunction PostList(props: PostListProps) {\n    const {postsPromise} = props;\n\n    const posts = use(postsPromise);\n\n    return (\n        <ul style={{listStylePosition: 'inside'}}>\n            {posts.map((post) => {\n                return(\n                    <li key={post.id}>\n                        <Link href={`/posts/${post.id}`}>{post.title}</Link>\n                    </li>\n                )\n            })}\n        </ul>\n    )\n}\n\nexport default PostList;"],"names":[],"mappings":";;;;;AAEA;AACA;AAHA;;;;AASA,SAAS,SAAS,KAAoB;IAClC,MAAM,EAAC,YAAY,EAAC,GAAG;IAEvB,MAAM,QAAQ,IAAA,oKAAG,EAAC;IAElB,qBACI,6LAAC;QAAG,OAAO;YAAC,mBAAmB;QAAQ;kBAClC,MAAM,GAAG,CAAC,CAAC;YACR,qBACI,6LAAC;0BACG,cAAA,6LAAC,0KAAI;oBAAC,MAAM,AAAC,UAAiB,OAAR,KAAK,EAAE;8BAAK,KAAK,KAAK;;;;;;eADvC,KAAK,EAAE;;;;;QAIxB;;;;;;AAGZ;KAhBS;uCAkBM","debugId":null}}]
-}

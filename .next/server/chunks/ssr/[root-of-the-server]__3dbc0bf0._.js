@@ -1,3 +1,0 @@
-module.exports=[93695,(a,b,c)=>{b.exports=a.x("next/dist/shared/lib/no-fallback-error.external.js",()=>require("next/dist/shared/lib/no-fallback-error.external.js"))},62212,a=>{a.n(a.i(66114))},26030,a=>{a.n(a.i(50708))},53900,a=>{a.n(a.i(9952))},25545,a=>{a.n(a.i(80))},58108,(a,b,c)=>{},80,a=>{"use strict";a.s(["default",()=>c]);var b=a.i(7997);let c=function(){return(0,b.jsx)("div",{className:"box slot-2",children:"Users Slot"})}}];
-
-//# sourceMappingURL=%5Broot-of-the-server%5D__3dbc0bf0._.js.map

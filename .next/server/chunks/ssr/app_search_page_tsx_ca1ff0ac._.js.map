@@ -1,1 +1,0 @@
-{"version":3,"sources":["turbopack:///[project]/app/search/page.tsx"],"sourcesContent":["function SearchPage() {\n    return <div className=\"box page\">SearchPage</div>\n}\n\nexport default SearchPage;"],"names":[],"mappings":"oFAAA,SAAS,EACL,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,IAGG,EAHH,CAAI,UAAU,oBAAW,cACrC"}
