@@ -9,8 +9,8 @@ function PostFragment(props: PostFragmentProps) {
     const {postId} = props;
     const {isLoading, post, error} = usePost(postId);
 
-    if (isLoading || !post) return <div>Loading...</div>;
-    if (error) return <div>Error!</div>;
+    if (isLoading || !post) {return <div>Loading...</div>;}
+    if (error) {return <div>Error!</div>;}
 
     return (
         <div>
